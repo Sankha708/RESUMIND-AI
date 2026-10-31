@@ -1,0 +1,21 @@
+# Normalize line endings so the repository is consistent across Windows, macOS and Linux.
+# Text files are stored with LF in the repository and checked out with the platform default.
+* text=auto eol=lf
+
+# Windows PowerShell scripts keep CRLF-friendly checkout but are stored as text.
+*.ps1 text eol=crlf
+
+# Explicit binary files that must never be normalized.
+*.pdf  binary
+*.docx binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.db   binary
+*.woff binary
+*.woff2 binary
+
+# Lockfiles and generated JSON are text.
+*.json text eol=lf

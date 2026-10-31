@@ -1,0 +1,78 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Next.js Build Outputs
+.next/
+.next-launch-gate-*/
+.tsconfig-launch-gate-*.json
+next-env.d.ts
+*.tsbuildinfo
+out/
+build/
+dist/
+
+# Test Artifacts & Playwright
+debug.log*
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Local Databases
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite3-journal
+
+# Session Uploads, Generated Exports, and Ephemeral Artifacts
+storage/uploads/*
+!storage/uploads/.gitkeep
+storage/exports/*
+!storage/exports/.gitkeep
+storage/reports/*
+!storage/reports/.gitkeep
+temp/
+tmp/
+
+# Environment Variables & Local Secrets
+.env
+!.env.example
+!.env.production.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Antigravity Brain / Scratch (Local run logs)
+.system_generated/
