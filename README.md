@@ -30,7 +30,6 @@ An intelligent resume analysis and optimization platform that helps candidates u
 ## Table of Contents
 
 - [Overview](#overview)
-- [Screenshots](#screenshots)
 - [Feature Highlights](#feature-highlights)
 - [Technology Stack](#technology-stack)
 - [Architecture](#architecture)
@@ -76,26 +75,6 @@ Nothing in the scoring path guesses. A requirement with no textual evidence is r
 ### Built for
 
 Job seekers who want to understand how their resume is read before applying; career transitioners mapping existing experience to unfamiliar postings; students and early-career candidates who need project work weighted fairly alongside traditional employment.
-
----
-
-## Screenshots
-
-> **Not yet available.** No application screenshots exist in this repository, so none are shown above — publishing mockups as product screenshots would misrepresent the UI.
->
-> To add authentic captures, run the app locally and save privacy-safe images (synthetic resume data only, no real emails, phone numbers, or session values) to `docs/assets/readme/`, then reference them here:
->
-> ```markdown
-> | Screen | Image |
-> | :--- | :--- |
-> | Landing and upload | ![Landing](docs/assets/readme/01-landing.png) |
-> | Extraction review | ![Review](docs/assets/readme/02-review.png) |
-> | ATS Readiness report | ![ATS](docs/assets/readme/03-ats-readiness.png) |
-> | Job Match report | ![Job Match](docs/assets/readme/04-job-match.png) |
-> | Improvement Studio | ![Improve](docs/assets/readme/05-improvement-studio.png) |
-> | Resume Builder | ![Builder](docs/assets/readme/06-builder.png) |
-> | Export Center | ![Export](docs/assets/readme/07-export-center.png) |
-> ```
 
 ---
 
